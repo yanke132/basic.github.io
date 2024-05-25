@@ -1,0 +1,65 @@
+/* This was made with GlassGenerator.netlify.app */ 
+
+/* This was made with GlassGenerator.netlify.app */ 
+
+.glass-container{
+
+    width: 80%;
+    height: 450px;
+    color: rgb(0, 0, 0);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 19px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0,191,255, 0.022);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 2px rgba(255,255,255,0.4) solid;
+    border-bottom: 2px rgba(40,40,40,0.35) solid;
+    border-right: 2px rgba(40,40,40,0.35) solid;
+    margin: auto;
+
+}
+.glass-container1{
+
+  width: 80%;
+  height: 450px;
+  color: rgb(0, 0, 0);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 19px;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0,191,255, 0.022);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  border: 2px rgba(255,255,255,0.4) solid;
+  border-bottom: 2px rgba(40,40,40,0.35) solid;
+  border-right: 2px rgba(40,40,40,0.35) solid;
+  margin: auto;
+
+}
+#glass{
+    margin-top: 50px;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .canvas {
+    display: block; /* 移除inline默认的间距 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -100; /* 确保画布在内容之下 */
+    
+  }

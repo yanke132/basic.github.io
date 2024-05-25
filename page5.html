@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./images/icon.png">
+    <link rel="icon" type="image/png" href="./images/icon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>SZPU-iGEM</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+        name='viewport' />
+    <!-- 图标 -->
+    <link rel="stylesheet" href="./images/icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/icon.png">
+    <link rel="stylesheet" href="./css/animate.css">
+    <!-- Font Awesome Icons -->
+    	<!-- loading -->
+	<link rel="stylesheet" href="./css/loading.css">	
+	<link rel="stylesheet" href="./css/style.css">
+    <!-- Main CSS -->
+    <link href="./assets/css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/bootstrap4.6.css">
+    <link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/loading.css">
+
+    <style>
+        /* 添加您的CSS样式，包括返回顶端按钮的样式 */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #333;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            display: none;
+            z-index: 2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="#top" class="back-to-top">返回顶端</a>
+	<div id="loader" class="loader">
+		<div class="implode">
+			<div class="implode-in">
+				<div id="cover" class="acting">
+
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</div>
+		</div> <!-- /.implode -->
+	</div> <!-- /#loader -->
+	<a href="#top" class="back-to-top">返回顶端</a>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">SZPU-iGEM</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+			aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item ">
+					<a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle a" href="./page2.html" role="button"
+						data-toggle="dropdown" aria-expanded="false">
+						Team
+					</a>
+
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="./page2.html#">Members</a>
+						<a class="dropdown-item" href="./page2.html#">Attributions</a>
+						<a class="dropdown-item" href="./page2.html#">Collaborations</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="./page3.html" role="button" data-toggle="dropdown"
+						aria-expanded="false">
+						Project
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="./page3.html">Description</a>
+						<a class="dropdown-item" href="./page3.html">Engineering</a>
+						<a class="dropdown-item" href="./page3.html">Experiments</a>
+						<a class="dropdown-item" href="./page3.html">Notebook</a>
+						<a class="dropdown-item" href="./page3.html">Proof of concept</a>
+						<a class="dropdown-item" href="./page3.html">Results</a>
+						<a class="dropdown-item" href="./page3.html">Partnership</a>
+						<a class="dropdown-item" href="./page3.html">Contributions</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./page4.html">Safety<span class="sr-only"></a>
+				</li>
+				<li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle" href="./page5.html" role="button" data-toggle="dropdown"
+						aria-expanded="false">
+						Human Practices
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="./page5.html#">Integrated Human Practices</a>
+						<a class="dropdown-item" href="./page5.html#">Education & Communication</a>
+						<a class="dropdown-item" href="./page5.html#">implementation</a>
+						<a class="dropdown-item" href="./page5.html#">Entrepreneurship</a>
+
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./page6.html">Dry LAB<span class="sr-only"></a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="./page7.html" role="button" data-toggle="dropdown"
+						aria-expanded="false">
+						Web LAB
+					</a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item" href="./page7.html">Achievements</a>
+						<a class="dropdown-item" href="./page7.html">Education</a>
+						<a class="dropdown-item" href="./page7.html">Measurement</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<canvas id="canvas" class="canvas"></canvas>
+    	<!--------------------------------------
+FOOTER
+--------------------------------------->
+	<div class="container mt-5">
+		<footer class="bg-white border-top p-3 text-muted small">
+			<div class="row align-items-center justify-content-between">
+				<div>
+					<span class="navbar-brand mr-2"><strong>SZPU-iGEM</strong></span> Copyright &copy;
+					<script>document.write(new Date().getFullYear())</script>
+					. All rights reserved.
+				</div>
+
+
+			</div>
+		</footer>
+	</div>
+	<!-- End Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+	<script src="./javascript/bg.js"></script>
+	<script>window.addEventListener('load', function () {
+		// 页面加载完成后，停止动画
+		var loader = document.getElementById('loader');
+		// 可以添加一些逻辑判断，确保只在需要时执行
+		if (loader) {
+			loader.style.display = 'none'; // 或者使用其他方法停止动画
+		}
+	});
+	</script>
+
+
+</body>
+
+</html>
